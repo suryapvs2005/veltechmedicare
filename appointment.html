@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veltech Medicare - Hospital Appointment Booking</title>
+    <link rel="stylesheet" href="(link unavailable)">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        .btn-primary {
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Veltech Medicare</h1>
+        <h2>Hospital Appointment Booking</h2>
+        <form id="booking-form" action="response.html">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" class="form-control" id="time" required>
+            </div>
+            <div class="form-group">
+                <label for="doctor">Doctor:</label>
+                <select class="form-control" id="doctor" required>
+                    <option value="">Select Doctor</option>
+                    <option value="Dr. John Doe">Dr.John Doe</option>
+                    <option value="Dr. Jane">Dr.Jane</option>
+                    <option value="Dr. Elizabeth">Dr.Elizabeth</option>
+                    <option value="Dr. Jenniffer">Dr.Jenniffer </option>
+                    <option value="Dr. Williams">Dr.Williams</option>
+                </select>
+            </div>
+            <a href="response.html"></a><button type="submit" class="btn btn-primary">Book Appointment</button>
+        </form>
+    </div>
+    </body>
+</html>s

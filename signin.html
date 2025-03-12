@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veltech Medicare - Sign Up</title>
+    <style>
+        body {
+            background: url('https://wallpaperaccess.com/full/624111.jpg') no-repeat center/cover;
+            font-family: Arial, sans-serif;
+        }
+        .form {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 400px;
+            border: 2px solid black;
+            align-items: center;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .form h1 {
+            color: white;
+            font-size: 2rem;
+            border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+            margin-bottom: 20px;
+        }
+        .box {
+            padding: 10px;
+            margin: 10px;
+            width: 75%;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 1rem;
+        }
+        #submit {
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border-radius: 25px;
+            width: 50%;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form class="form" action="home.html">
+        <h1>SIGN IN</h1><br>
+        Username
+        <input type="text" name="Username" class="box" placeholder=" Enter Username" required>
+        Email
+        <input type="email" name="Email" class="box" placeholder=" Enter Email" required>
+        Password
+        <input type="password" name="Password" class="box" placeholder=" Enter Password"  required>
+        <div class="forgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+        </div>
+        <a href="home.html"></a><input type="submit" value="Login" id="submit">
+        <p>Don't have an account?<a href="signin.html">Register</a></p>
+        </form>
+</body>
+</html>
